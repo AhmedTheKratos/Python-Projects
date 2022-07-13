@@ -1,0 +1,23 @@
+Projects :
+Python
+
+1.	Install pycharm
+2.	Install jupyter lab
+
+Math
+
+1.	Quadrtic equation solver: Given a, b, c, find the roots of the equation
+2.	Quadratic equation solver: Add capability to handle imaginary roots
+3.	Look up Collatz Conjecture. Write a program to find the 'hops' required to reach the 4,2,1 cycle for a given integer.
+4.	Read about Kaprekar's number. Given a number, find the hops it takes to reach Kaprekar's number of 6174.
+5.	Prime numbers. Find a program to check if a number is prime. Improve its performance
+6.	Prime numbers. Generate all prime numbers upto a given number.
+
+Physics
+
+1.	Write a program to simulate projectile motion. Given a launch angle and initial velocity, find the path of the projectile, range, distance.
+2.	Use pygame to write the graphics of above.
+
+Github
+
+1.	Create your github profile and upload all the above codes to github
