@@ -1,0 +1,82 @@
+print('Welcome to AskPython Quiz')
+answer = input('Are you ready to play the Quiz ? (yes/no) :')
+score = 0
+total_questions = 10
+
+if answer.lower() == 'yes':
+    answer = input('Question 1: What is your Favourite programming language?')
+    if answer.lower() == 'python':
+        score += 1
+        print('correct')
+    else:
+        print('Wrong Answer :(')
+
+    answer = input('Question 2: Have You Subscribed My Youtube Channel? ')
+    if answer.lower() == 'yes':
+        score += 1
+        print('correct')
+    else:
+        print('Wrong Answer :(')
+
+    answer = input('Question 3: Who is My Python Teacher?')
+    if answer.lower() == 'fahd bhaijan':
+        score += 1
+        print('correct')
+    else:
+        print('Wrong Answer :(')
+
+    answer = input('Question 4: where do you live ? ')
+    if answer.lower() == 'america':
+        score += 1
+        print('correct')
+    else:
+        print('Wrong Answer :(')
+
+    answer = input('Question 5: How are my python skills :) ? ')
+    if answer.lower() == 'good':
+        score += 1
+        print('correct')
+    else:
+        print('Wrong Answer :(')
+
+    answer = input('Question 6: What is my youtube channel name ? ')
+    if answer.lower() == 'ahmedthekratos':
+        score += 1
+        print('correct')
+    else:
+        print('Wrong Answer :(')
+
+    answer = input('Question 7: which one is powerful Pc graphics card or laptop graphic card? ')
+    if answer.lower() == 'pc':
+        score += 1
+        print('correct ! Thats Obivious XD ')
+    else:
+        print('Wrong Answer :(')
+
+    answer = input('Question 8: which one is my favourite gaming or video editing ? ')
+    if answer.lower() == 'both':
+        score += 1
+        print('correct ! THat one was a tricky one XD ')
+    else:
+        print('Wrong Answer :( I know it was a tricky question')
+
+    answer = input('Question 9: which Graphic card i have ? ')
+    if answer.lower() == 'rtx 3050':
+        score += 1
+        print('correct ! That one was a tricky one too ')
+    else:
+        print('Wrong Answer :( I know it was a tricky question')
+
+    answer = input('Question 10: Are you enjoying this quiz ?? ')
+    if answer.lower() == 'yes':
+        score += 1
+        print('correct !')
+    else:
+        print('Wrong Answer :( ')
+
+print('Thankyou for Playing this small quiz game, you attempted', score, "questions correctly!")
+mark = (score / total_questions) * 100
+print('Marks obtained:', mark)
+print('Man I Had Fun! Wanna PLay again :) !')
+
+# code by Suhaib
